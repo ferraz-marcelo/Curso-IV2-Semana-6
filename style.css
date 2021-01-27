@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(78, 74, 74);
+}
+
+header {
+    background-color: rgb(69, 69, 192);
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 5.5vh;
+    width: 15vw;
+    border: orange solid 2px;
+    border-radius: 0.5rem;
+}
+
+button {
+    height: 5.5vh;
+    width: 7vw;
+    border: orange solid 2px;
+    background-color: orange;
+    color: white;
+    border-radius: 0.5rem;
+}
+
