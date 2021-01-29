@@ -14,8 +14,8 @@ let xhr = new XMLHttpRequest()
                 for (let i = 0; i < dadosJSONObj.length; i++) {
                     bloco.innerHTML +=
                   
-                    `<div class="demo-card-wide mdl-card mdl-shadow--2dp" style="">
-                    <h2 class="mdl-card__title-text">${dadosJSONObj[i].name}</h2>
+                    `<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                    <h2>${dadosJSONObj[i].name}</h2>
                     <img style="width:435px; height:200px" src="images/${dadosJSONObj[i].language}.png">
                     <button onclick="openurl('${dadosJSONObj[i].clone_url}')">link</button>
                     <button onclick="clone('git clone ${dadosJSONObj[i].html_url}')">Clone</button>
@@ -50,5 +50,5 @@ let xhr = new XMLHttpRequest()
 
              localStorage.repositorio = arrJson
 
-             window.location.href = "sobre.html"
+             window.location.href = "info.html"
         } 
